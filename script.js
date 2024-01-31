@@ -9,6 +9,12 @@ let btn_2 = document.querySelector(".btn_2");
 let input_result_box_2 = document.querySelector(".input_result_box_2");
 let winner = document.querySelector(".winner");
 let play = document.querySelector(".play_again");
+// let chance = document.querySelector(".chance");
+// let chance_main = document.querySelector(".chance_main");
+// let count_chance = 5;
+
+
+
 
 btninput1.addEventListener("click" , function(){
 
@@ -67,6 +73,7 @@ btn_2.addEventListener("click" , function(){
     //     input_result_box_2.style.color = "red";
     //     inputbox_2.style.border = "2px solid red";
     // }
+    
 
     else if ( input1.value > inputbox_2.value ){
 
@@ -88,6 +95,7 @@ btn_2.addEventListener("click" , function(){
         input_result_box_2.style.marginBottom = "20px";
         input_result_box_2.style.color = "red";
         inputbox_2.style.border = "2px solid red";
+        
 
     }
 });
